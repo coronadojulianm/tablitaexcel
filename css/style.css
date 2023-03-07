@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Raleway:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+header{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 2vh;
+    background-color: rgb(165, 165, 165);
+}
+h1{
+    padding: .9%;
+    text-align: left;
+    color: black;
+}
+img{
+    width: 90px;
+    margin-left: 1100px;
+}
+input{
+    width: 100%;
+    border: none;
+    height: 40px;
+    font-size: .8em;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+input:focus{
+    outline: none;
+}
+table {
+    margin: auto;
+	border-collapse: collapse;
+	width: 50%;
+	border: 1px solid #000000;
+	font-size: 100%;
+    background-color: white;
+}
+table th, table .titulos{
+	text-align: center;
+	padding: 12px;
+	border: 1px solid #000000;
+}
+td{
+	text-align: left;
+	padding: 12px;
+	border: 1px solid #000000;
+}
+
+table th {
+	background-color: #4CAF50;
+	color: white;
+}
+textarea{
+    width: 100%;
+    resize: none;
+}
+
+
